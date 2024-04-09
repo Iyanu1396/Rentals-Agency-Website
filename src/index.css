@@ -26,13 +26,14 @@ nav .divider {
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
+  padding: 1em 0;
 }
 
 .logo {
   display: block;
   margin: 0 auto;
   width: 120px;
-  padding-top: 1.3em;
+
   cursor: pointer;
 }
 
@@ -66,4 +67,40 @@ li:hover {
   font-size: 1.8rem;
   text-align: center;
   margin: 0 auto;
+}
+
+.header-inputs {
+  background-color: #ffffff;
+  margin-top: 1.3em;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.search-icon-container {
+  background: #23a6f0;
+  height: 39px;
+  padding: 8px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.Dropdown-control {
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+}
+
+.Dropdown-control,
+.is-selected {
+  color: #252b42;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.type .Dropdown-control {
+  border-radius: 5px 0px 0px 5px;
 }
