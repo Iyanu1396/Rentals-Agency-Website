@@ -1,0 +1,40 @@
+{
+    "properties":
+    [ {
+        "address" :"789 Valencia Street",
+        "city" : "San Francisco",
+        "state"   : "California",
+        "zipCode" : "94110"
+    },
+    {
+        "address" :"456 Elm Street",
+        "city" : "San Diego",
+        "state"   : "California",
+        "zipCode" : 92101
+    },
+    {
+        "address" :"123 Main Street",
+        "city" : "Los Angeles",
+        "state"   : "California",
+        "zipCode" : 90001
+    },
+    {
+        "address" :"101 Pine Street",
+        "city" : "Sacramento",
+        "state"   : "California",
+        "zipCode" : 95814
+    },
+    {
+        "address" :"246 Maple Drive",
+        "city" : "Fresno",
+        "state"   : "California",
+        "zipCode" : 93722
+    },
+    {
+        "address" :"369 Cedar Lane",
+        "city" : "Oakland",
+        "state"   : "California",
+        "zipCode" : 94601
+    }
+    ]
+}
