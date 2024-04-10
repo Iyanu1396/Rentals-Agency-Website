@@ -12,6 +12,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 nav .divider {
   border-bottom: 0.5px solid #ffffff;
 }
@@ -103,4 +105,56 @@ li:hover {
 
 .type .Dropdown-control {
   border-radius: 5px 0px 0px 5px;
+}
+
+.benefits {
+  font-family: "Inter", sans-serif;
+  padding-top: 3em;
+}
+
+.benefits p,
+.properties p {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 1.9rem;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid #f4511e;
+  width: 50%;
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.benefits figcaption {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 2em;
+  margin-top: 5px;
+}
+
+.benefitsImg {
+  max-width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.properties {
+  background: #f5f5f5;
+  padding: 2em 0;
+}
+
+.properties button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: #f4511e;
+  border: none;
+  box-shadow: 0px 1.85px 3.15px 0px #f85a4704;
+  box-shadow: 0px 8.15px 6.52px 0px #f85a4707;
+  box-shadow: 0px 20px 13px 0px #f85a4709;
+  color: #ffffff;
 }
