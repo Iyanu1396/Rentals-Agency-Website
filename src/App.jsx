@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Benefits />
       <Properties />
-      <Footer/>
+     
     </>
   );
 }
