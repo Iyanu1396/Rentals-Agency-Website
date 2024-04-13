@@ -1,0 +1,58 @@
+.footer {
+  font-family: "Inter", sans-serif;
+  color: #0a142f;
+  font-weight: 400;
+  padding: 3em 0;
+}
+
+.footer i {
+  color: #f4511e;
+}
+
+.address span, .phone span  {
+    font-size: 0.8rem;
+    padding-left: 10px;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links{
+    padding-top: 2em;
+}
+
+
+.links p {
+  margin: 0;
+  padding-bottom: 1.3em;
+
+}
+
+small,
+.socialMedia span {
+  opacity: 50%;
+  font-size: 0.8rem;
+}
+
+
+
+.hr1{
+    width: 100%;
+    border: 1px solid #f4511e;
+}
+
+.hr2{
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #7BB9FC;
+    opacity: 20%;
+}
