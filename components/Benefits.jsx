@@ -1,4 +1,4 @@
-import benefitsImg from "../src/assets/benefitsSectionIcons/brown-sofa-near-glass-window.avif";
+import benefitsImg from "../src/assets/benefitsSectionIcons/brown-sofa-near-glass-window.jpg";
 
 import dollarIcon from "../src/assets/benefitsSectionIcons/dollar-icon.png";
 import houseIcon from "../src/assets/benefitsSectionIcons/house-icon.png";

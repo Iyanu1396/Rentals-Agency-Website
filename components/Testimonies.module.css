@@ -1,0 +1,44 @@
+.testimonies {
+  font-family: "Inter", sans-serif;
+  background-color: rgba(244, 81, 30, 0.1);
+  padding: 5em 0 0 0;
+}
+
+.feedback {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.name {
+  font-weight: 700;
+  color: #f4511e;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding-top: 3em;
+}
+
+.wrapper p {
+  margin: 0;
+}
+
+.wrapper p + p {
+  padding-top: 7px;
+}
+
+.testimonies img {
+  width: 61px;
+  height: 61px;
+}
+
+.sliderControl {
+  padding: 3em 0;
+
+  display: flex;
+  gap: 1em;
+  color: #d9dbe1;
+
+}
