@@ -40,5 +40,39 @@
   display: flex;
   gap: 1em;
   color: #d9dbe1;
-
 }
+
+.playerWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%; 
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.playButton {
+  background-color: #f4511e;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.playButton i {
+  font-size: 1.5em;
+  color: white;
+}
+

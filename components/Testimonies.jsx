@@ -1,12 +1,18 @@
 import styles from "./Testimonies.module.css";
 import harry from "../src/assets/harry.png";
-import videoBg from "../src/assets/videobg.png";
-import { Player } from "video-react";
 import "video-react/dist/video-react.css";
+import ReactPlayer from "react-player";
+import { useState } from "react";
 
 // const testimonies = [{}, {}, {}];
 
 function Testimonies() {
+  const [playing, setPlaying] = useState(false);
+
+  const handleClick = () => {
+    setPlaying(true);
+  };
+
   return (
     <section className={styles.testimonies}>
       <div className="container">
@@ -35,11 +41,21 @@ function Testimonies() {
           <i className="fa-solid fa-circle"></i>
         </div>
       </div>
-      <Player
-        playsInline
-        poster={videoBg}
-        src="https://videos.pexels.com/video-files/7578544/7578544-uhd_3840_2160_30fps.mp4"
-      />
+      <div className={styles.playerWrapper}>
+        <ReactPlayer
+          url="https://videos.pexels.com/video-files/7578544/7578544-uhd_3840_2160_30fps.mp4"
+          className={styles.reactPlayer}
+          width="100%"
+          height="100%"
+          controls={playing}
+          playing={playing}
+        />
+        {!playing && (
+          <div className={styles.playButton} onClick={handleClick}>
+            <i className="fa-solid fa-play"></i>
+          </div>
+        )}
+      </div>
     </section>
   );
 }
